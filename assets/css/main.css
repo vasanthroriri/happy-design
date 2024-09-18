@@ -1384,6 +1384,11 @@ section,
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 10%);
 }
 
+.scrollable-dropdown {
+  max-height: 200px; /* Set the max height */
+  overflow-y: auto;  /* Enable vertical scrolling */
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
